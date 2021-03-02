@@ -5,7 +5,6 @@ E-mail: angietune@yandex.ru\
 GitHub: [https://github.com/angietune/](https://github.com/angietune/)
 ## Objective
 I want to obtain a position in IT company to participate in software development.
-I want to obtain a position in IT company to participate in software development.
 ## Skills
 * *HTML, CSS, JavaScript, Git* - basic.
 * *Adobe Photoshop, Adobe Illustrator, Corel Draw* - professional.
