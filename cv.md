@@ -30,4 +30,4 @@ media.
 * *Web development* - Udemy, 2020.
 * *Adobe XD UI/UX design* - Udemy, 2020.
 ## Languages
-* *English* - A2.
+* *English* - B2.
