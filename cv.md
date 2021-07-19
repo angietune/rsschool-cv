@@ -16,21 +16,21 @@ I want to obtain a position in IT company to participate in software development
 > Able to quite quickly learn new skills, technologies and applications.
 > Able to analyse tasks, perform decomposition, organise execution, allocate resources and make urgent decisions.
 ## Cod Sample
-`function getMatrix(number) {
-  let matrix = [];
-  for (let j = 1; j <= number; j++) {
-    let array = [];
-    for (let i = 1; i <= number; i++) {
-      if (i === j) {
-      array.push(1);
-      } else {
-      array.push(0);
-      };
-    };
-    matrix.push(array);
-  };
-  return matrix;
-} `
+` function getMatrix(number) {
+   let matrix = [];
+   for (let j = 1; j <= number; j++) {
+     let array = [];
+     for (let i = 1; i <= number; i++) {
+        if (i === j) {
+       array.push(1);
+       } else {
+       array.push(0);
+       };
+     };
+     matrix.push(array);
+   };
+   return matrix;
+  } `
 ## Experience
 **JSC Broiler Ryazani | 2000 – 2001**. System Administrator.\
 **LTD Politech, Ryazan | 2001 – 2008**. Design/Prepress. Automatisation of prepress processes.\
