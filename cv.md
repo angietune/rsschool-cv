@@ -15,3 +15,19 @@ I want to obtain a position in IT company to participate in software development
 > Have got an experience in creating presentations, infographics, developing technological instructions, 
 > Able to quite quickly learn new skills, technologies and applications.
 > Able to analyse tasks, perform decomposition, organise execution, allocate resources and make urgent decisions.
+## Projects
+## Experience
+**JSC Broiler Ryazani | 2000 – 2001**. System Administrator.\
+**LTD Politech, Ryazan | 2001 – 2008**. Design/Prepress. Automatisation of prepress processes.\
+**LTD Politech, Ryazan | 2013 – 2020**. IT department. Management of company's websites, SEO, content, social 
+media.
+## Education
+*Financial Lawyer (1998)*\
+*Moscow University of Econimics and Law*
+## Complementary education
+* *PHP programming* - Ryazan Educational Center, 1999.
+* *1C programming* - Bit Company, Ryazan, 2000.
+* *Web development* - Udemy, 2020.
+* *Adobe XD UI/UX design* - Udemy, 2020.
+## Languages
+* *English* - B2.
