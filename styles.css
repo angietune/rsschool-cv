@@ -31,19 +31,22 @@ ul {
   text-align: center;
 }
 /* Header section */
-header {
+.header {
   background: url(img/port_bg.jpg) no-repeat 100% / cover;
   height: 100%;
 }
-nav ul {
+.nav-list {
   font-size: 20px;
   display: flex;
   flex-wrap: wrap;
   margin-right: 0;
   padding-top: 30px;
   padding-bottom: 50px;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+}
+.li-item {
+  margin-left: 30px;
 }
 .avatar {
   width: 200px;
@@ -77,10 +80,10 @@ nav ul {
   line-height: 30px;
 }
 /* Expierence section */
-.experience-wrapper {
+.expierence-wrapper {
   display: flex;
-  align-items: top;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .subtitle {
   font-size: 20px;
@@ -88,8 +91,8 @@ nav ul {
   line-height: 40px;
   color: #ef8784;
 }
-.experience-item {
-  width: 50%;
+.expierence-item {
+  max-width: 600px;
   padding: 20px;
   vertical-align: top;
 }
@@ -105,9 +108,8 @@ nav ul {
 .skills-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 500px;
-  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .skill-item {
   display: flex;
@@ -118,7 +120,7 @@ nav ul {
   margin-bottom: 10px;
 }
 /* Footer section */
-footer {
+.footer {
   background-color: #f8bdbb;
   height: 60px;
   padding-top: 40px;
@@ -126,6 +128,7 @@ footer {
 .contacts {
   max-width: 600px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
