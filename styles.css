@@ -1,0 +1,132 @@
+/* Global declaration */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.divider {
+  width: 50px;
+  height: 3px;
+  background-color: #f8bdbb;
+  margin: 25px auto 25px auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  border-bottom: 2px solid currentColor;
+}
+ul {
+  list-style-type: none;
+}
+.title {
+  font-size: 25px;
+  padding-top: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+/* Header section */
+header {
+  background: url(img/port_bg.jpg) no-repeat 100% / cover;
+  height: 100%;
+}
+nav ul {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("./img/yoxo.jpg");
+  background-position: top center;
+  margin: 0 0 0 auto;
+}
+.name {
+  font-size: 20px;
+  text-align: right;
+  font-weight: lighter;
+}
+.name span {
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 13px;
+}
+.position {
+  font-size: 20px;
+  text-align: right;
+  font-weight: lighter;
+}
+header p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 30px;
+}
+/* Expierence section */
+.wrapper {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ef8784;
+}
+.wrapper-item {
+  width: 50%;
+  padding: 20px;
+  vertical-align: top;
+}
+.item {
+  border-left: 2px solid #f8bdbb;
+}
+.wrapper-item ul {
+  padding-top: 10px;
+  line-height: 27px;
+  font-weight: lighter;
+}
+/* Skills section */
+.skills-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 500px;
+  margin: 0 auto;
+}
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-image {
+  margin-bottom: 10px;
+}
+/* Footer section */
+footer {
+  background-color: #f8bdbb;
+  height: 60px;
+  padding-top: 40px;
+}
+.contacts {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
