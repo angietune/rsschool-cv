@@ -45,7 +45,7 @@ ul {
   justify-content: flex-end;
   align-items: center;
 }
-.li-item {
+.nav-item {
   margin-left: 30px;
 }
 .avatar {
@@ -82,7 +82,7 @@ ul {
 /* Expierence section */
 .expierence-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .subtitle {
@@ -105,25 +105,57 @@ ul {
   font-weight: lighter;
 }
 /* Skills section */
-.skills-wrapper {
+.skills-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .skill-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 280px;
+  height: 280px;
+  margin: 10px;
+  padding: 30px;
+  border: solid 1px black;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: 200px 30px;
 }
-.item-image {
-  margin-bottom: 10px;
+.html {
+  background-image: url("./img/html5.svg");
 }
+.css {
+  background-image: url("./img/css3.svg");
+}
+.js {
+  background-image: url("./img/js-square.svg");
+}
+.ts {
+  background-image: url("./img/itypescript.svg");
+}
+.react {
+  background-image: url("./img/react.svg");
+}
+.redux {
+  background-image: url("./img/redux.svg");
+}
+.skill-subtitle {
+  font-size: 26px;
+  padding-bottom: 15px;
+  padding-top: 110px;
+}
+.skill-description {
+  font-size: 16px;
+  line-height: 26px;
+  height: 100px;
+}
+
 /* Footer section */
 .footer {
   background-color: #f8bdbb;
-  height: 60px;
+  min-height: 60px;
   padding-top: 40px;
+  padding-bottom: 10px;
 }
 .contacts {
   max-width: 600px;
@@ -132,4 +164,9 @@ ul {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+}
+
+.contacts li {
+  margin: 10px;
+  font-size: 16px;
 }
