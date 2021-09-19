@@ -188,6 +188,9 @@ ul {
 }
 .project-item a {
   color: white;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 .uber {
   background-image: url("./img/uber.jpg");
@@ -257,9 +260,6 @@ ul {
   display: inline-block;
   width: 100%;
   height: 100%;
-}
-.contact-item:hover {
-  text-decoration: none;
 }
 
 .divider-footer {
