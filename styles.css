@@ -279,6 +279,9 @@ ul {
   background-image: url("./img/github.svg");
   background-position: 6px bottom;
 }
+.school svg {
+  transform: scale(50%);
+}
 
 @media (max-width: 1200px) {
   .skills-list {
